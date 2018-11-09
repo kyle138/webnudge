@@ -6,14 +6,16 @@ Primarily used to keep Pantheon Drupal containers active but could be used for o
 npm install --save webnudge
 
 ## Usage
+```javascript
 webnudge({
   url: 'www.example.com',
-  get: '?foo=bar,
+  get: '?foo=bar',
   userAgent: 'webnudge/0.0.1'
   }, 
   callback)
+ ```
 
-####Options
+#### Options
 * **url:** (REQUIRED) The URL to request.
    Must be in the format of https://some.domain.tld/
 * **get:** (optional) Additional get variable to append to request url. 
