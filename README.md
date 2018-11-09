@@ -9,7 +9,7 @@ npm install --save webnudge
 ```javascript
 webnudge({
   url: 'www.example.com',
-  get: '?foo=bar,
+  get: '?foo=bar',
   userAgent: 'webnudge/0.0.1'
   }, 
   callback)
