@@ -1,6 +1,9 @@
 # webnudge
 NPM module to make simple web requests to keep containers active. 
-Primarily used to keep Pantheon Drupal containers active but could be used for other environments.
+This was primarily developed to keep Pantheon Drupal containers active and to ensure drupal crons get executed but could be used for other environments. Pantheon environment containers shut down due to inactivity preventing crons from running and disabling access to the backend database. The Pantheon documentation states that this happens within 1-2 hours of inactivity but I have observed unpaid containers being spun down after 5-10 minutes. I would recommend nudging the environment every 5 minutes or less.
+
+See the following link for more information:
+[Cron for Drupal](https://pantheon.io/docs/drupal-cron/#run-cron-more-often)
 
 ## Install
 npm install --save webnudge
