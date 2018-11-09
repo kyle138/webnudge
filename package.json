@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/kyle138/webnudge/issues"
   },
-  "homepage": "https://github.com/kyle138/webnudge#readme"
+  "homepage": "https://github.com/kyle138/webnudge#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
